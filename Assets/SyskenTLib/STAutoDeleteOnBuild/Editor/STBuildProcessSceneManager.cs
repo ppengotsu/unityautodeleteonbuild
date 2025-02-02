@@ -60,7 +60,7 @@ namespace SyskenTLib.STAutoDeleteOnBuildEditor
                         {
 #if STAUTODELETE_FORCE_DELETE_ON_UNITY_EDITOR
                             //強制削除
-                            Debug.Log("Delete Objects On  "+ scene.name);
+                            Debug.Log("Force Delete Objects On  "+ scene.name);
                             DeleteAllObjectsOnThisScene(scene);
 #endif
                         }
@@ -81,7 +81,7 @@ namespace SyskenTLib.STAutoDeleteOnBuildEditor
                             //
                             #if STAUTODELETE_FORCE_DELETE
                             //強制削除
-                            Debug.Log("Delete Objects On  "+ scene.name);
+                            Debug.Log("Force Delete Objects On  "+ scene.name);
                             DeleteAllObjectsOnThisScene(scene);
                             #endif
                         }

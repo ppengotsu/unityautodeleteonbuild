@@ -26,5 +26,7 @@
   * どの削除もしない
 * STAUTODELETE_FORCE_DELETE
   * ビルド時に、強制的にオブジェクトの削除を行います
+  * STAutoDeleteSceneConfigのsceneAutoDeleteTypeで、そのシーンでは削除しないにしている場合は、削除されません
 * STAUTODELETE_FORCE_DELETE_ON_UNITY_EDITOR
-    * UnityEditor再生時に、強制的にオブジェクトの削除を行います
+  * UnityEditor再生時に、強制的にオブジェクトの削除を行います
+  * STAutoDeleteSceneConfigのsceneAutoDeleteTypeで、そのシーンでは削除しないにしている場合は、削除されません
